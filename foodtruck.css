@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	}
+ul {
+	list-style: none;
+	background: #D3A12E00;
+}
+ul li {
+	display: inline-block;
+	position: relative;
+}
+ul li a {
+	display: block;
+	padding: 20px 25px;
+	color: #FFF;
+	text-align: center;
+	font-size: 23px;
+	color: black;
+}
+ul li ul.dropdown li {
+	display: block;
+}
+ul li ul.dropdown {
+	width: 100%;
+	background: #D3A12E00;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+ul li a:hover {
+	background: #70CF7470;
+}
+ul li:hover ul.dropdown {
+	display: block;
+	background: #70CF7470;
+}
+nav a {
+	text-decoration: none;
+	font-family: 'Unbounded', cursive;
+}
+.container1 {
+	color: white;
+}
+h1 {
+		background-color: white;
+		color: black;
+		font-weight; 1000;
+		font-style: normal; 
+		text-align: center;
+}
+h3 {
+		background-color: white;
+		color: black;
+		font-weight; 1000;
+		font-style: normal; 
+		text-align: center;
+}
